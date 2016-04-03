@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/la_wallpaper_00"
+ >
+
+    <LinearLayout
+        android:id="@+id/main_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="57dp"
+        android:layout_gravity="bottom|center_horizontal"
+        android:background="@color/hint_foreground_material_light"
+        android:baselineAligned="false"
+        android:weightSum="1">
+
+        <ImageView
+            android:layout_width="90dp"
+            android:layout_height="match_parent"
+            android:id="@+id/la_logo"
+            android:src="@drawable/splashscreen"
+            android:layout_gravity="top|left|bottom" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="top|left|bottom">
+
+            <EditText
+                android:layout_width="316dp"
+                android:layout_height="match_parent"
+                android:id="@+id/la_addressinfo"
+                android:layout_margin="5dp"
+                android:inputType="none"
+                android:text="@string/la_company"
+                android:lines="4"
+                android:textColor="@color/abc_background_cache_hint_selector_material_light" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="fill_vertical">
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
