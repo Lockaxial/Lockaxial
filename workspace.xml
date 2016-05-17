@@ -2010,7 +2010,7 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/androidex/plugins/kkuevent.java" />
         <option value="$PROJECT_DIR$/app/src/main/jni/uevent/jniuevent.c" />
         <option value="$PROJECT_DIR$/app/src/main/jni/uevent/com_androidex_plugins_uevent.h" />
-        <option value="$PROJECT_DIR$/app/src/main/jni/jnimian/jnimian.c" />
+        <option value="$PROJECT_DIR$/app/src/main/jni/jnimian/jnimain.c" />
         <option value="$PROJECT_DIR$/app/src/main/jni/serial/com_androidex_plugins_serial.h" />
         <option value="$PROJECT_DIR$/app/src/main/jni/serial/serial.h" />
         <option value="$PROJECT_DIR$/app/src/main/jni/serial/serial.c" />
@@ -2856,7 +2856,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/jni/jnimian/jnimian.c">
+    <entry file="file://$PROJECT_DIR$/app/src/main/jni/jnimian/jnimain.c">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
